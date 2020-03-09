@@ -1,0 +1,30 @@
+# Ex_1
+
+def func1():
+  str = input("Enter:")
+  return len(str)
+
+print(func1())  
+
+#Ex_2
+
+def sum(x):  if x == 0:
+    return 0
+  else:
+    return x + sum(x-1)  
+print(sum(10))    
+
+#Ex_3
+
+str = "pynative"
+print(str[::2])
+
+#Ex_4
+
+list = [1, 2, 3, 4, 7]
+def check(list):
+  if list [0] == list[-1]:
+    return True
+  else:
+    return False  
+print(check(list))    
